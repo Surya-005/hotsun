@@ -1,0 +1,555 @@
+@media only screen and (max-width:1000px) {
+
+    /* nav */
+    #logo {
+        flex: 1;
+    }
+nav ul{
+    flex: 1;
+}
+    /* welcome quotes */
+    .welcome_banner{
+        position: relative;
+    }
+    .welcome_img{
+        width: 58%;
+        height: 36.5rem;
+    }
+    .welcome_quotes{
+        position:absolute;
+        right:0%;
+        top:15%;
+        width:40%;
+    }
+    .welcome_img{
+        padding: 0%;
+    }
+    .welcome_quotes{
+        padding: 1em;
+    }
+    .welcome_img img{
+        height: 80%;
+    }
+    .welcome_quotes a{
+        align-self: start;
+        margin-top: 1em;
+    }
+    .welcome_quotes p{
+        font-size: 2em;
+    }
+    /* recent match */
+    .recent_match{
+        position: relative;
+        top:-70px;
+        height: 30rem;
+    }
+    .recent_match_details{
+        width: 80%;
+    }
+    /* players details */
+    .players,.aboutus,.contact,.footer{
+    
+            position: relative;
+            top:-50px;
+        
+    }
+    .player_profile #player_name{
+        margin: 1em 0em 0em;
+        font-size: 3em;
+    }
+    .player_details #player_img {
+        height: 13rem;
+    }
+    /* contact us */
+    .contact_details p{
+        font-size: 2.5em;
+    }
+}
+@media  screen and (max-width:985px) {
+    .welcome_img{
+        width: 65%;
+    }
+
+}
+
+
+@media  screen and (max-width:850px){
+   .side_heading h1{
+    font-size: 2em;
+   }
+   /* nav */
+   nav ul {
+    display: none;
+}
+/* bar */
+.bar i{
+display: flex;
+cursor: pointer;
+}
+.bar i:hover{
+    color: cyan;
+}
+
+    /* welcome */
+    .welcome_img{
+        width: 69%;
+    }
+.welcome_quotes{
+    width:40%;
+}
+    .welcome_quotes p{
+        font-size: 2em;
+    }
+    .welcome_quotes a{
+        font-size: 1.5em;
+    }
+     /* players details */
+     .player_profile #player_name{
+        margin: 1em 0em 0em;
+        font-size: 2.2em;
+    }
+    .player_profile #player_role,#player_batstyle,#player_bowlstyle{
+        font-size: 1.2em;
+    }
+    
+    /* about */
+    .aboutus p{
+        font-size: 1.2em;
+    }
+    /* contact */
+    .contact_details p{
+        font-size: 2em;
+    }
+    .contacts h3,.matchdetails h3{
+        margin-left: 0em;
+        font-size: 1.5em;
+    }
+    .contacts h4{
+        font-size: 1.2em;
+        margin-left: 0em;
+    }
+    .matchdetails ul{
+        font-size: 1.2em;
+    }
+    /* footer */
+    .footer p{
+        font-size: 1.2em;
+    }
+    .teamname #logo a{
+        font-size: 2.5em;
+    }
+    .teamname h2,.teamname h3{
+        font-size: 1.2em;
+    }
+    .icon i{
+        font-size: 1.2em;
+    }
+}
+
+@media  screen and (max-width:800px){
+ 
+    .welcome_quotes p {
+        font-size: 1.7em;
+    }
+    .welcome_img{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width:720px){
+    /* welcome */
+    .welcome_quotes a {
+        font-size: 1.2em;
+    }
+    
+    /* recent match */
+    .recent_match h1 {
+        font-size: 2em;
+    }
+    .recent_match{
+        height: 30rem;
+    }
+    /* players */
+    .player_profile #player_role,
+#player_batstyle,
+
+#player_bowlstyle {
+    font-size: 1em;
+}
+/* about us */
+.aboutus{
+    font-size: 1em;
+}
+/* contact us */
+.contact_details p{
+    font-size: 1.5em;
+}
+.contacts h3,
+.matchdetails h3 {
+    font-size: 1.2em;
+}
+/* footer */
+.contents h1,
+.social h1 {
+font-size: 1.2em;
+font-weight: 200;
+}
+}
+
+@media only screen and (max-width:600px){
+    .welcome_banner{
+        margin:0em 1em;
+    }
+    .welcome_img{
+        width: 100%;
+        height: 40rem;
+    }
+    .welcome_img img{
+        width: 100%;
+    }
+    .welcome_quotes{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+        width:100%;
+        height: 32rem;
+        top:0;
+        padding:0em;
+        background: rgba(3, 3, 3, 0.356);
+    }
+    .welcome_quotes p{
+font-size: 2em;
+font-weight: 500;
+text-align: center;
+padding: 0em 2em;
+text-shadow: 0px 0px 10px black;
+font-weight: 900;
+    }
+    .welcome_quotes a{
+        font-size: 2em;
+        align-self: center;
+    }
+    #logo a{
+        font-size: 2em;
+    }
+    .bar i{
+        font-size: 1.5em;
+        top: 0.5em;
+    }
+ 
+    .response_nav ul li a {
+        color: whitesmoke;
+        font-size: 1.2em;  
+    }
+    /* welcome */
+    /* .welcome_img{
+        width: 90%;
+    }
+    .welcome_quotes{
+    width: 40%;
+    }
+    .welcome_quotes p{
+        font-size: 1.6em;
+    } */
+    /* players */
+    .player_details #player_img{
+        height: 10rem;
+        width:13rem;
+    }
+   
+    /* recent match */
+    .recent_match{
+        height: 28rem;
+    }
+    .buttons button{
+        padding: 0.5em;
+    }
+    /* contact */
+.contacts h3,
+.matchdetails h3 {
+    font-size: 1em;
+}
+.contacts h4 {
+    font-size: 1em;
+}
+.matchdetails ul{
+    font-size: 1em;
+}
+}
+
+@media only screen and (max-width:500px) {
+    /* welcome */
+
+
+    /* players */
+    .player_details #player_img{
+        height: 10rem;
+        width:10rem;
+    }
+    
+   
+     /* recent match */
+     .recent_match{
+        height: 25rem;
+    }
+    .buttons button{
+        font-size: 0.8em;
+    }
+    /* players */
+
+    .players ol li{
+        padding:0.3em 0em;
+    }
+ 
+    .player_profile #player_name{
+        font-size: 2em;
+    }
+    .player_profile #player_role,
+    #player_batstyle,
+    #player_bowlstyle {
+        font-size: 0.8em;
+    }
+        /* contact */
+.contacts h3,
+.matchdetails h3 {
+    font-size: 0.9em;
+}
+.contacts h4 {
+    font-size: 0.8em;
+}
+.matchdetails ul{
+    font-size: 0.9em;
+}
+/* FOOTEr */
+.teamname #logo a{
+    font-size: 2em;
+}
+.teamname h2,.teamname h3{
+    font-size: 1em;
+}
+.social h1 {
+    font-size: 1em;
+    font-weight: 200;
+    }
+.icon i{
+    font-size: 1em;
+}
+    
+}
+@media only screen and (max-width:460px) {
+    .response_nav ul li a {
+        font-size: 0.9em;  
+    }
+    /* welcome */
+    .welcome_quotes p{
+        font-size: 1.8em;
+    }
+    .welcome_quotes a{
+        font-size: 1.7em;
+    }
+     /* recent match */
+     .recent_match{
+        height: 20rem;
+    }
+    .buttons button{
+        font-size: 0.6em;
+    }
+    /* players */
+
+    .players ol li{
+        font-size: 1em;
+        padding:0.3em 0em;
+    }
+    .playername{
+        width:40%;
+    }
+    .player_profile{
+        width:60%;
+    }
+    .player_profile #player_name{
+        font-size: 1.2em;
+    }
+    .player_profile #player_role,
+    #player_batstyle,
+    #player_bowlstyle {
+        font-size: 0.9em;
+    }
+    /* about us */
+.aboutus p{
+    font-size: 0.9em;
+}
+        /* contact */
+.contacts h3,
+.matchdetails h3 {
+    font-size: 0.8em;
+}
+.contacts h4 {
+    font-size: 0.7em;
+}
+.matchdetails ul{
+    font-size: 0.8em;
+}
+.contact_details p{
+    font-size: 1.2em;
+}
+/* FOOTEr */
+.teamname #logo a{
+    font-size: 1.5em;
+}
+.teamname h2,.teamname h3{
+    font-size: 1em;
+}
+.social h1 {
+    font-size: 1em;
+    font-weight: 200;
+    }
+.icon i{
+    font-size: 0.9em;
+}
+.contents ul li a {
+    font-size: 0.8em;
+}
+.contents h1,
+.social h1 {
+    font-size: 0.9em;
+}
+.footer p {
+    font-size: 1em;
+}
+}
+@media only screen and (max-width:415px) {
+    .welcome_img{
+        width: 100%;
+        height: 36rem;
+    }
+    .welcome_quotes{
+        height: 29rem; 
+    }
+    #logo a{
+        font-size: 1.5em;
+    }
+    .bar i{
+        font-size: 1.2em;
+        top:0.7em;
+    }
+    .response_nav ul li a {
+        font-size: 0.9em;  
+    } 
+    
+    /* welcome */
+    .welcome_quotes p{
+font-size: 1.5em;
+    }
+    .welcome_quotes a{
+        font-size: 1.3em;
+    }
+     /* recent match */
+     .recent_match{
+        height: 15rem;
+    }
+    .recent_match h1{
+        font-size: 1.5em;
+    }
+    .side_heading h1{
+        font-size: 1.5em;
+    }
+    /* players */
+.player_details{
+    padding: 0em;
+}
+    .players ol li{
+        font-size: 0.9em;
+        padding:0.3em 0em;
+    }
+        /* contact */
+.contacts h3,
+.matchdetails h3 {
+    font-size: 0.7em;
+}
+.contacts h4 {
+    font-size: 0.6em;
+}
+.matchdetails ul{
+    font-size: 0.7em;
+}
+.contact_details p{
+    font-size: 1em;
+}
+/* FOOTEr */
+.teamname #logo a{
+    font-size: 1em;
+}
+.teamname h2,.teamname h3{
+    font-size: 0.8em;
+}
+.icon i{
+    font-size: 0.5em;
+}
+.contents ul li a {
+    font-size: 0.7em;
+}
+.contents h1,
+.social h1 {
+    font-size: 0.7em;
+}
+.footer p {
+    font-size: 0.9em;
+}
+}
+@media screen and (max-width:365px) {
+    .welcome_banner{
+        margin: 0;
+    }
+    .welcome_img img{
+        height: 29.5rem;
+    }
+    .welcome_quotes p{
+        font-size: 1.5em;
+            }
+            .welcome_quotes a{
+                font-size: 1em;
+            }
+            .welcome_img{
+                height: 34rem;
+            }
+           .player_details #player_img{
+                height: 8rem;
+            }
+            .recent_match{
+                height: 18rem;
+            }
+            .recent_match_details{
+                width: 100%;
+            }
+            .contact_info{
+                flex-direction: column;
+            }
+            .contacts{
+                width:100%;
+                align-items: center;
+                border: none;
+                border-bottom: 1px solid cyan;
+            }
+            .matchdetails{
+                width: 100%;
+                padding: 1em;
+            }
+            .teamname,.contents{
+                border: none;
+            }
+            .footer .social {
+                display: none;
+            }
+}
+@media screen and (max-width:240px) {
+.welcome_img{
+    height: 20rem;
+}
+.welcome_quotes{
+    padding:2em 1em;
+}
+.recent_match h1{
+    font-size: 1em;
+}
+}
